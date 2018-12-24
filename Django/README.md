@@ -30,6 +30,15 @@ directory learning_log
         (the focus here is the manage.py file)
 
 directory learning_logs
+    git root folder
 
-
+- Book states the following: 
+    If you’re using Python 2.7, you should call the
+    __str__() method__unicode__() instead. The body of the
+    method is identical.
     
+- In REALITY, python 2.7 can take the __str__() method and return
+the properly given string.
+
+- Django APIs
+    https://docs.djangoproject.com/en/2.1/ref/
