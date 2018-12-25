@@ -27,7 +27,7 @@ add new entries, and read and edit existing entries.
 directory learning_log
     source 11_env/bin/activate
     python manage.py runserver
-        (the focus here is the manage.py file)
+        (the focus here is to run the manage.py file)
 
 directory learning_logs
     git root folder
@@ -42,3 +42,19 @@ the properly given string.
 
 - Django APIs
     https://docs.djangoproject.com/en/2.1/ref/
+
+- End on p. 412
+
+
+18-2. Short Entries: The __str__() method in the Entry model currently appends
+an ellipsis to every instance of Entry when Django shows it in the admin site 
+or the shell. Add an if statement to the __str__() method that adds an
+ellipsis only if the entry is more than 50 characters long . Use the admin
+site to add an entry that’s fewer than 50 characters in length, and check that
+it doesn’t have an ellipsis when viewed.
+
+
+
+
+
+
