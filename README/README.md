@@ -53,10 +53,12 @@ ellipsis only if the entry is more than 50 characters long . Use the admin
 site to add an entry that’s fewer than 50 characters in length, and check
 that it doesn’t have an ellipsis when viewed.
 
-##### Mapping a URL
-    1. `urls.py` file needs updating. 
-    http://ehmatthes.github.io/pcc/chapter_18/README.html#updates
-    2. 
+##### Django Templates Information
+    * https://docs.djangoproject.com/en/2.1/topics/templates/
+
+
+
+
 
 
 
