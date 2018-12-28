@@ -1,3 +1,5 @@
+# URL patterns complete and PEP8 verified.
+
 """Defines url patterns for learning_logs"""
 from django.urls import path
 

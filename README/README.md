@@ -16,9 +16,6 @@ and invite other users to either register or log in.
 Once logged in, a user should be able to create new topics,
 add new entries, and read and edit existing entries.
 
-##### 
-
-
 
 ##### Developer Notes
 
@@ -43,30 +40,9 @@ the properly given string.
 - Django APIs
     https://docs.djangoproject.com/en/2.1/ref/
 
-- End on p. 412
+- Django 2.0 removes the `django.core.urlresolvers` module, which was
+moved to django.urls in version 1.10. Change any import to use
+django.urls instead, like this: `django.urls import reverse`
 
-
-18-2. Short Entries: The __str__() method in the Entry model currently appends
-an ellipsis to every instance of Entry when Django shows it in the admin site 
-or the shell. Add an if statement to the __str__() method that adds an
-ellipsis only if the entry is more than 50 characters long . Use the admin
-site to add an entry that’s fewer than 50 characters in length, and check
-that it doesn’t have an ellipsis when viewed.
-
-##### Django Templates Information
+##### Django Templates Documentation
     * https://docs.djangoproject.com/en/2.1/topics/templates/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
