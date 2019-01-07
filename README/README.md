@@ -43,6 +43,10 @@ the properly given string.
 - Django 2.0 removes the `django.core.urlresolvers` module, which was
 moved to django.urls in version 1.10. Change any import to use
 django.urls instead, like this: `django.urls import reverse`
+https://stackoverflow.com/questions/43139081/importerror-no-module-named-django-core-urlresolvers
 
 ##### Django Templates Documentation
     * https://docs.djangoproject.com/en/2.1/topics/templates/
+
+
+# Need to Set UP USER ACCOUNTS
