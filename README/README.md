@@ -22,8 +22,8 @@ add new entries, and read and edit existing entries.
 - Django will be available only when the environment is active.
 
 directory learning_log
-    source 11_env/bin/activate
-    python manage.py runserver
+    `source 11_env/bin/activate`
+    `python manage.py runserver`
         (the focus here is to run the manage.py file)
 
 directory learning_logs
