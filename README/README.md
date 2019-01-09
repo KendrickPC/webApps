@@ -49,4 +49,22 @@ https://stackoverflow.com/questions/43139081/importerror-no-module-named-django-
     * https://docs.djangoproject.com/en/2.1/topics/templates/
 
 
-# Need to Set UP USER ACCOUNTS
+##### Python Manage Shell 
+1. Activate virtual environment.
+2. python manage.py shell
+3. (11_env) Kenneths-MacBook-Pro:learning_log everydaykenneth$ python manage.py shell
+Python 3.6.5 (v3.6.5:f59c0932b4, Mar 28 2018, 03:03:55) 
+[GCC 4.2.1 (Apple Inc. build 5666) (dot 3)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+(InteractiveConsole)
+>>> from django.contrib.auth.models import User
+>>> User.objects.all()
+<QuerySet [<User: 11_admin>]>
+>>> for user in User.objects.all():
+...     print(user.username, user.id)
+... 
+11_admin 1
+>>> 
+
+
+
